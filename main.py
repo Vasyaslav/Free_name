@@ -9,7 +9,7 @@ from PyQt5.QtWidgets import QMainWindow, QApplication
 class Sec(QMainWindow):
     def __init__(self):
         super().__init__()
-        # self.setupUi(self)
+        #  self.setupUi(self)
         uic.loadUi('UI.ui', self)
         self.pushButton.clicked.connect(self.let_paint)
         self.can_paint = False
