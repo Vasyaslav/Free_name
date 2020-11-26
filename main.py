@@ -2,7 +2,7 @@ import sys
 from random import choice
 from PyQt5.QtGui import QPainter, QColor, QPen
 from PyQt5.QtWidgets import QMainWindow, QApplication
-from untitled import Ui_MainWindow
+from UI import Ui_MainWindow
 
 
 class Sec(Ui_MainWindow, QMainWindow):
